@@ -1,0 +1,117 @@
+#logo {
+    width: 139px;
+    height: 32px;
+}
+.menu { font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+}
+h1 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: #021412;
+    width:524px ; 
+    height: 256px;
+}
+#tap {
+    width:524px; 
+    height: 256px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+#butt1 {
+    background-color: black; 
+    color: aliceblue;
+}
+
+.butts2 {
+    background-color: black;
+    color: beige;
+    width: 133px; 
+    height: 30px;
+    border-radius: 0 0 30px 0;
+}
+.butts2:hover {
+    width: 193px; 
+    height: 90px;
+    background-color: blue;
+    }
+a:visited{
+    color: grey;
+}
+a:link {
+    color: goldenrod;
+}
+.block {
+    width: 313px; 
+    height: 120px;
+    font-family: "Inter", sans-serif;
+}
+#rectangle1 {
+    width:504px;
+    height:600px;
+}
+
+#rectangle2 {
+    width:155px;
+    height:240px;
+}
+
+#rectangle3 {
+    width:160px;
+    height:110px;
+}
+
+#rectangle4 {
+    width:149px;
+    height:100px;
+}
+
+#rectangle5 {
+    width:349px;
+    height:100px;
+}
+
+#rectangle6 {
+    width:554px;
+    height:100px;
+}
+
+#rectangle7 {
+    width:1088px;
+    height:292px;
+}
+
+#girlImg {
+    border: #021412;
+    margin-top: 20px;
+    width: 254px;
+    height: 300px;
+}
+
+#text3 {
+    position: absolute; right: 91px;
+    width: 761px;
+    height: 180px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    color: #021412;
+}
+ 
+#free60 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #021412;
+}

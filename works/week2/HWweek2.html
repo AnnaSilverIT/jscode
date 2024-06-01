@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://www.svgrepo.com/show/402847/unicorn-face.svg" type="image/svg">
+        <title>Опросник</title>
+    </head>
+    <main>
+        <h1 style="color: blueviolet;"> Опросник для владельцев волшебных животных</h1>
+        <img src="https://klev.club/uploads/posts/2023-10/1698748389_klev-club-p-arti-magicheskie-sushchestva-garri-potter-40.jpg" alt="Волшебные животные" style="width:45%">
+        <form>
+        <div><label for="owner_name">Имя владельца</label>
+        <input type="text" id="owner_name"> </div>
+        <div>
+            <label for="pet_name">Кличка питомца</label>
+            <input type="text" id="pet_name">
+        </div>
+        <div>
+        <label for="pet_type"> Введите породу животного</label>
+        <select id="pet_type" name="pet_name">
+            <option value="">Выберите</option>
+            <option value="bird">Фвупер</option>
+            <option value="occamy">Окками</option>
+            <option value="nifler">Нюхлёр</option>
+            <option value="dragon">Дракон</option>
+            <option value="unicorn">Единорог</option>
+            <option value="other">Другое</option>
+        </select>
+        </div>
+        <div>
+            <p> Чем питается питомец?</p>
+            <input type="checkbox" id="1food" value="1" > Сухой корм <br/>
+            <input type="checkbox" id="2food" value="2" > Влажный корм <br/>
+            <input type="checkbox" id="3food" value="3" > Натуральный корм
+        </div>
+        <div>
+            <p>Пол питомца : </p>
+            <label>Женский<input type="radio" name="sex" id="fsex"></label>
+            <label>Мужской <input type="radio" name="sex" id="msex"></label>
+            <label>Гермафродит <input type="radio" name="sex" id="femmale"></label>
+        </div>
+
+        <div><label for="comment"> Введите свой комментарий</label>
+            <textarea name="comment" id="comment" rows="6" cols="40">
+            </textarea>
+        </div>
+        <div>
+            <label for="photo"> Прикрепите фото питомца </label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <fieldset>
+            <legend> Контакты владельца </legend>
+            <label for="phone">Введите контактный номер телефона</label>
+            <input type="tel" id="phone">
+            <label for="email">Введите адрес электронной почты</label>
+            <input type="email" id="email">
+        </fieldset>
+        <div>
+            <input type="submit" name="Сохранить">
+        </div>
+    </form>
+    </main>
+</html>
